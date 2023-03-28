@@ -1,0 +1,271 @@
+.intro-wrap{
+    
+    display:flex !important;
+    justify-content: left !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+   
+}
+
+.s-works{
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+.section-header{
+    margin: 0;
+}
+
+.text-section{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+
+.alingment li{
+    
+   
+    text-align: left;
+    
+    color: white;
+    
+}
+
+p{
+    color: white;
+    
+    text-align: left;
+    margin-top: -15px;
+   
+}
+
+.display-2{
+   text-align: left;
+ 
+}
+
+
+
+h2{
+    text-align: left;
+ 
+   
+    color: #bb852e;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .display-2{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .display-2{
+      font-size: 18px;
+    }
+
+    .intro-wrap{
+        margin-top: -50px;
+       
+       
+    }
+  }
+
+@media only screen and (max-width: 1500px) {
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    .home-content__main {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-content h1 {
+        font-size: 5.5rem;
+    }
+    .home-content__main {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .home-content h1 {
+        font-size: 4.6rem;
+    }
+    .home-content br {
+        display: none;
+    }
+    .home-content__main {
+        padding-top: 21rem;
+        padding-right: 80px;
+        max-width: 680px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .home-content h3 {
+        font-size: 1.5rem;
+    }
+    .home-content h1 {
+        font-size: 4rem;
+    }
+    .home-content__main {
+        padding-right: 70px;
+        max-width: 550px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .home-content__main {
+        max-width: 490px;
+    }
+    .home-content__buttons {
+        padding-top: 1.2rem;
+        text-align: center;
+    }
+    .home-content__buttons .btn {
+        display: block;
+        width: 70%;
+        margin: 1.5rem 0 0 0;
+    }
+    .home-social {
+        right: 4rem;
+    }
+    .home-content__scroll {
+        right: 7.5rem;
+    }
+    .home-content__line {
+        right: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home-content h1 {
+        font-size: 3.8rem;
+    }
+    .home-social {
+        right: 2rem;
+    }
+    .home-social li {
+        padding: .6rem 0;
+    }
+    .home-social i {
+        font-size: 17px;
+        border: none;
+    }
+    .home-social span {
+        display: none;
+    }
+    .home-content__scroll {
+        bottom: 5.4rem;
+    }
+    .home-content__line {
+        height: 7.2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .s-home {
+        min-height: 642px;
+    }
+    .home-content h1 {
+        font-size: 3.5rem;
+    }
+    .home-content__main {
+        text-align: center;
+        max-width: none;
+        padding-top: 15rem;
+        padding-right: 25px;
+        width: 85%;
+    }
+    .home-content__buttons {
+        padding-top: 1.2rem;
+    }
+    .home-content__buttons .btn {
+        width: auto;
+        margin: 1.5rem 0 0 0;
+    }
+    .home-social {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-content h1 {
+        font-size: 3.3rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .s-home {
+        min-height: 630px;
+    }
+    .home-content h1 {
+        font-size: 3.2rem;
+    }
+    .home-content__main {
+        padding-top: 16.2rem;
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .s-header {
+        height: 90px;
+    }
+    .header-logo {
+        left: 30px;
+    }
+    .header-menu-toggle {
+        right: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header-menu-text {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .section-header {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .section-header {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .s-clients {
+        padding-bottom: 17.4rem;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-header.has-bottom-sep {
+        padding-bottom: 0;
+    }
+    .section-header.has-bottom-sep::before {
+        width: 250px;
+    }
+}
